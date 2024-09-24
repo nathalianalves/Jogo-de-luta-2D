@@ -1,6 +1,6 @@
 ALLEGRO_FLAGS = $(shell pkg-config allegro-5 allegro_main-5 allegro_image-5 allegro_primitives-5 allegro_font-5 allegro_ttf-5 --libs --cflags)
 parametrosCompilacao = -Wall
-nomePrograma = A4
+nomePrograma = luta
 
 all: $(nomePrograma)
 
